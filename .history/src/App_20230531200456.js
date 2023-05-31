@@ -13,10 +13,7 @@ function App({ users, handleClick }) {
       {loading && 
       <>
       <div data-testid="loading">Loading...</div>
-      <button data-testid="buttonLoading" onClick={() => {setLoading(false)}}>Stop loading</button>
-      <button data-testId="buttonDisabled" disabled>Disabled</button>
-      <input type="text" data-testid="testInput" />
-      
+      <button onClick={() => {setLoading(false)}}>Stop loading</button>
       </>
 
       }

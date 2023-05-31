@@ -14,9 +14,8 @@ root.render(
         { name: "Nordin", role: "Super admin",ceinture:"jaune" },
         { name: "Dominique", role: "invité",ceinture:"blanche" },
         { name: "Florian", role: "invité",ceinture:"rouge" },
-      ]}
-      handleClick={() => {console.log("handleClick")}}
-      >
+      ]
+      }>
     </App>
   </React.StrictMode>
 );

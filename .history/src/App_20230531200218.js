@@ -10,16 +10,7 @@ function App({ users, handleClick }) {
 
   return (
     <div>
-      {loading && 
-      <>
-      <div data-testid="loading">Loading...</div>
-      <button data-testid="buttonLoading" onClick={() => {setLoading(false)}}>Stop loading</button>
-      <button data-testId="buttonDisabled" disabled>Disabled</button>
-      <input type="text" data-testid="testInput" />
-      
-      </>
-
-      }
+      {loading && <div data-testid="loading">Loading...</div>}
       {!loading &&
         <a data-testId="linktotest" onClick={() => {
           console.log("click")

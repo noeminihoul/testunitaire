@@ -9,14 +9,12 @@ root.render(
   <React.StrictMode>
     <App
       users={[
-        { name: "Noémi", role: "administrateur",ceinture:"noire" },
-        { name: "Bao", role: "utilisateur",ceinture:"noire" },
-        { name: "Nordin", role: "Super admin",ceinture:"jaune" },
-        { name: "Dominique", role: "invité",ceinture:"blanche" },
-        { name: "Florian", role: "invité",ceinture:"rouge" },
-      ]}
-      handleClick={() => {console.log("handleClick")}}
-      >
+        { name: "Noémi", role: "administrateur" },
+        { name: "Bao", role: "utilisateur" },
+        { name: "Nordin", role: "Super admin" },
+        { name: "Dominique", role: "invité" }
+      ]
+      }>
     </App>
   </React.StrictMode>
 );
